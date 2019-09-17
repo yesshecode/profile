@@ -6,63 +6,71 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Righteous&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Righteous|Roboto:100,300,400,500,700,900&display=swap" rel="stylesheet">
 </head>
 <body>
-	<nav class="navbar">
-		<ul>
-			<li><a class="navbar" href="#about-me">about</a></li>
-			<li><a class="navbar" href="#work">work</a></li>
-			<li><a class="navbar" href="#contact">contact</a></li>
-		</ul>
-	</nav>
-	<header class="banner">
-		<nav class="navbar">
-		<ul>
-			<li><a class="navbar" href="#about-me">about</a></li>
-			<li><a class="navbar" href="#work">work</a></li>
-			<li><a class="navbar" href="#contact">contact</a></li>
-		</ul>
-	</nav>
-		<h1 class="highlight">Hi,</h1>
-		<h2 class="head-title"> I am Deb.</h2>
-		<h3 class="description head-description"> I manage projects and design & build websites</h3>
-	</header>
+	<div class="col-1"></div>
+	<div class="container">
+		<nav>
+			<ul class="nav-list">
+				<li><a class="navbar" href="#about-me">about</a></li>
+				<li><a class="navbar" href="#services">work</a></li>
+				<li><a class="navbar" href="#contact">contact</a></li>
+			</ul>
+		</nav>
 
-	
+		<header class="banner">
+			<h1 class="highlight">Hi,</h1>
+			<h2 class="highlight"> I am Deb.</h2>
+			<h3 class="description head-description"> I manage projects, design and code websites</h3>
+			</header>
+	</div>
+
 	<main class="about" id="about-me">
-		<h4 class="title-about title"> About me </h4>
-		<p class="first-paragraph paragraph">I was born and raised in Brazil but have been calling Canada home since 2013. I have a bachelors degree in business and am a certified professional project manager (PMI) since 2011. <br><br> I have managed projects accross different industries since the beginning of my career in 2006. It was a long journey… I worked in  research & development, mining, oil & gas, then I landed a job in IT as a project manager for web/software development. I finally found home! Here is where my passion for web development begins.</p>
+		<h4 class="title-about title"> about me </h4>
+		<p class="first-paragraph paragraph">I was born and raised in Brazil but have been calling Canada home since 2013. I have a bachelors degree in business and am a certified professional project manager (PMI) since 2011. <br><br> I have managed projects accross different industries since the beginning of my career in 2006. It was a long journey… I worked in  research & development, mining, oil & gas, then I landed a job in IT and fell in love with web/software development. I finally found home! Here is where my passion for web development begins.</p>	
 			
-			
-		<p class="second-paragraph paragraph">While managing projects I learnt how to  design and build beautiful and responsive websites and have been building custom websites for clients around the world, in both english and portuguese. <br> <br> I love dogs, but don’t have one. I learnt english as an adult and have been diving deep into self-development. If you want to know more about me, check my blog or let’s have a coffee!</p>		
+		<p class="second-paragraph paragraph">While managing projects I learnt how to  design and build beautiful and responsive websites and have been building custom websites for clients around the world, in both english and portuguese. <br> <br> I love dogs, but don’t have one (yet!). I learnt english as an adult and have been diving deep into self-development. If you want to know more about me, check <a class="hyperlink" href="#"> my blog</a> or let’s have a coffee!</p>		
 	</main>
 
-	<section id="work">
-		<h4 class="title-work title">Work</h4>
+	<section class="work" id="services">
+		<h4 class="title-work title">work</h4>
 		<div class="services-pm">
-			<p class="third-paragraph paragraph"><span>Project Management - </span>back to the strategy who's responsible for the ask for this request? or deploy to production close the loop I have zero cycles for this. Quick win anti-pattern for hit the ground running or work flows level the playing field, yet cross functional teams enable out of the box brainstorming and new economy.</p>
-		</div>	
+			<p class="third-paragraph paragraph"><span>Project Management - </span>Do you have a project idea but don’t know where to start from? Or you have a project that is just messy at the moment? If your answer is ‘yes’ to one of those questions, I can help you with that! Through consulting, I will:</p>
+			<ul class="list-items">
+				<li>Facilitate workshops to determine the scope of the project</li>
+				<li>Create all documentation required to kick-off a project (project charter, statement of work and project plan)</li>
+				<li>Build  comprehensive schedules and budgets</li>
+				<li>Identify resources and people required to successfully execute the project</li>
+				<li>Implement project management best practices</li>
+				<li>Create an investor pack to help you win investor, including, pitch decks, canvas business model and proposals</li>
+			</ul>
+		</div>			
 		<div class="services-web-dev">
-			<p class="fourth-paragraph paragraph"><span>Web Development - </span> - back to the strategy who's responsible for the ask for this request? or deploy to production close the loop I have zero cycles for this. Quick win anti-pattern for hit the ground running or work flows level the playing field, yet cross functional teams enable out of the box brainstorming and new economy.</p>
+			<p class="fourth-paragraph paragraph"><span>Web Development - </span> I design and build responsive websites totally tailored to target audiences using <span>SEO</span> best practices, <span>HTML5</span> and <span>CSS3</span>. I can also perform usability tests and help you manage your domain hosting.<br>You already have a design but need help to build the actual website? No problem, I got your back!</p>
 		</div>	
 	</section>
 
-	<section id="contact">
-		<h5>Got a project?</h5>
-		<h3 class="description">Let's have a coffee and chat about it!</h3>
-		<a href="mailto:yes.shecode@gmail.com" target="_top">
+	
+	<div class="foot-area">
+		<section id="contact">
+			<h5>Got a project?</h5>
+			<h3 class="description foot-description ">Let's have a coffee and chat about it!</h3>
 			<button class="action-button">
-				<img class="icon-sm" src="img/mail.png" alt="mail icon"/>
-				<p id="email"> e-mail me ;-)</p>
+				<a class="button" href="mailto:yes.shecode@gmail.com" target="_top"> email me ;-)
+				</a>
 			</button><br>
-		</a>
-		<a href="https://twitter.com/yes_shecode" target="_blank"><img class="icons" src="img/twitter.png" alt="twitter icon" /></a>
-		<a href="https://github.com/yesshecode" target="_blank"><img class="icons" src="img/github.png" alt="github icon"/></a>
-	</section>
+			</a>
+			<a href="https://twitter.com/yes_shecode" target="_blank"><img class="icons" src="img/twitter.png" alt="twitter icon" /></a>
+			<a href="https://github.com/yesshecode" target="_blank"><img class="icons" src="img/github.png" alt="github icon"/></a>
+		</section>
+	</div>
+		<footer>
+			<div>Icons made by <a href="https://www.flaticon.com/authors/epiccoders" title="EpicCoders">EpicCoders</a> and <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"title="Flaticon">www.flaticon.com</a></div>
+		</footer>
+	
+	
+	</div>
 
-	<footer>
-		<div>Icons made by <a href="https://www.flaticon.com/authors/epiccoders" title="EpicCoders">EpicCoders</a> and <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"title="Flaticon">www.flaticon.com</a></div>
-	</footer>
 </body>
 </html>
